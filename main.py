@@ -91,7 +91,7 @@ else:  # If the file exists, load the CSV file
         X_train, X_test, y_train, y_test = train_test_split(processed_images, labels, test_size=0.2, random_state=42)
 
         # Print shapes to verify
-        print(f"X_train shape: {X_train.shape}") #jhgmkk
+        print(f"X_train shape: {X_train.shape}") #testpush
         print(f"X_test shape: {X_test.shape}")
         print(f"y_train shape: {y_train.shape}")
         print(f"y_test shape: {y_test.shape}")
