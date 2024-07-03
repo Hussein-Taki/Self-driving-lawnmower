@@ -12,7 +12,8 @@ import matplotlib.pyplot as plt
 dataset_path = 'C:\\Users\\husse\\Downloads\\archive\\training\\training\\image'
 labels_file = 'C:\\Users\\husse\\Downloads\\archive\\training\\training\\Grass.csv'
 
-def load_and_preprocess_data():
+
+def load_and_preprocess_data(dataset_path, labels_df, threshold=50):
     # Verify if the file exists
     if not os.path.exists(labels_file):  # os.path.exists() checks if a file or directory exists
         print(f"Error: The file '{labels_file}' does not exist.")

@@ -1,4 +1,3 @@
-
 import numpy as np
 import os
 from sklearn.linear_model import LogisticRegression
@@ -37,7 +36,6 @@ def run_logistic_regression(X_train, X_test, y_train, y_test):
 
     # Display confusion matrix
     cm = confusion_matrix(y_test, lr_y_pred)  # Generate the confusion matrix for the predictions
-    disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=['Not Grass',
-                                                                      'Grass'])  # Create a ConfusionMatrixDisplay object to visualize the confusion matrix
+    disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=['Not Grass', 'Grass'])  # Create a ConfusionMatrixDisplay object to visualize the confusion matrix
     disp.plot()  # Plot the confusion matrix
     plt.show()  # Show the plot

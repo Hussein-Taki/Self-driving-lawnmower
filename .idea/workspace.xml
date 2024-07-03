@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83345b3d-5dea-416b-a4cc-d9d8aa5593db" name="Changes" comment="fix imports from preprocessing.py">
+    <list default="true" id="83345b3d-5dea-416b-a4cc-d9d8aa5593db" name="Changes" comment="refactor organisation (swap main and lg)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/k_nearest.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/k_nearest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithms/lg.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/lg.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/preprocessing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +53,7 @@
     "Python.k_nearest.executor": "Run",
     "Python.lg.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.mainn.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -154,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720035540412</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactor organisation (swap main and lg)">
+      <option name="closed" value="true" />
+      <created>1720036282332</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720036282332</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -162,6 +173,7 @@
     <MESSAGE value="linear regression model completed and functional" />
     <MESSAGE value="test push after rebase" />
     <MESSAGE value="fix imports from preprocessing.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix imports from preprocessing.py" />
+    <MESSAGE value="refactor organisation (swap main and lg)" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor organisation (swap main and lg)" />
   </component>
 </project>
