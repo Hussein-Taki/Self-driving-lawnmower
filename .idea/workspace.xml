@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83345b3d-5dea-416b-a4cc-d9d8aa5593db" name="Changes" comment="test push after rebase">
-      <change afterPath="$PROJECT_DIR$/algorithms/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/k_nearest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/lg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocess/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocess/preprocessing.py" afterDir="false" />
+    <list default="true" id="83345b3d-5dea-416b-a4cc-d9d8aa5593db" name="Changes" comment="fix imports from preprocessing.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/lg.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/lg.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,12 +61,13 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\husse\PycharmProjects\GrassClassifier\algorithms" />
+      <recent name="C:\Users\husse\PycharmProjects\GrassClassifier" />
       <recent name="C:\Users\husse\PycharmProjects\GrassClassifier\preprocessing" />
       <recent name="C:\Users\husse\PycharmProjects\GrassClassifier\data" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="lg" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="GrassClassifier" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,7 +80,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\husse\PycharmProjects\GrassClassifier\algorithms\lg.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\husse\PycharmProjects\GrassClassifier\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,13 +146,22 @@
       <option name="project" value="LOCAL" />
       <updated>1719434987329</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix imports from preprocessing.py">
+      <option name="closed" value="true" />
+      <created>1720035540412</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720035540412</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="image preprocessing fix (parsing and combined column)" />
     <MESSAGE value="linear regression model completed and functional" />
     <MESSAGE value="test push after rebase" />
-    <option name="LAST_COMMIT_MESSAGE" value="test push after rebase" />
+    <MESSAGE value="fix imports from preprocessing.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix imports from preprocessing.py" />
   </component>
 </project>

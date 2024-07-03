@@ -1,4 +1,4 @@
-"""
+
 import sys
 import os
 import argparse
@@ -7,8 +7,8 @@ import preprocess
 # Add the algorithms folder to the system path
 sys.path.append(os.path.join(os.path.dirname(__file__), 'algorithms'))
 
-# Import method scripts (dynamically as needed)
-# from algorithms.lg import run_logistic_regression  # Assuming you have a function run_logistic_regression in lg.py
+# Import method scripts
+from algorithms.lg import run_logistic_regression
 from algorithms.k_nearest import train_evaluate_knn
 
 def main(method):
