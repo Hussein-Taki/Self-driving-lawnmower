@@ -11,22 +11,33 @@ sys.path.append(os.path.join(os.path.dirname(__file__), 'algorithms'))
 from algorithms.lg import run_logistic_regression
 from algorithms.k_nearest import train_evaluate_knn
 
+
 def main(method):
     # Load and preprocess data
     dataset_path = 'C:\\Users\\husse\\Downloads\\archive\\training\\training\\image'
     labels_file = 'C:\\Users\\husse\\Downloads\\archive\\training\\training\\Grass.csv'
-    X_train, X_test, y_train, y_test = preprocess.load_and_preprocess_data(dataset_path, labels_file)
+    try:
+        X_train, X_test, y_train, y_test = preprocess.load_and_preprocess_data(dataset_path, labels_file)
+    except Exception as e:
+        print(f"Error loading and preprocessing data: {e}. Exiting.")
+        return
+
     if method == 'knn':
-        train_evaluate_knn( X_train, X_test, y_train, y_test)
+        try:
+            train_evaluate_knn(3, X_train, X_test, y_train, y_test)
+        except Exception as e:
+            print(f"Error running KNN: {e}. Exiting.")
     elif method == 'lg':
-        run_logistic_regression(X_train, X_test, y_train, y_test)
-
-
+        try:
+            run_logistic_regression(X_train, X_test, y_train, y_test)
+        except Exception as e:
+            print(f"Error running Logistic Regression: {e}. Exiting.")
     elif method == 'svm':
         # Placeholder for SVM (implement similarly to KNN)
         print("SVM method is not implemented yet.")
     else:
         print("Invalid method selected. Please choose from 'knn', 'lg', or 'svm'.")
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Run different classification algorithms for self-driving lawn mower.')
