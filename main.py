@@ -10,6 +10,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), 'algorithms'))
 # Import method scripts
 from algorithms.lg import run_logistic_regression
 from algorithms.k_nearest import train_evaluate_knn
+from algorithms.svm import train_evaluate_svm
 
 
 def main(method):
@@ -24,7 +25,7 @@ def main(method):
 
     if method == 'knn':
         try:
-            train_evaluate_knn(3, X_train, X_test, y_train, y_test)
+            train_evaluate_knn(X_train, X_test, y_train, y_test)
         except Exception as e:
             print(f"Error running KNN: {e}. Exiting.")
     elif method == 'lg':
@@ -33,10 +34,12 @@ def main(method):
         except Exception as e:
             print(f"Error running Logistic Regression: {e}. Exiting.")
     elif method == 'svm':
-        # Placeholder for SVM (implement similarly to KNN)
-        print("SVM method is not implemented yet.")
-    else:
-        print("Invalid method selected. Please choose from 'knn', 'lg', or 'svm'.")
+        try:
+            train_evaluate_svm(X_train, X_test, y_train, y_test)
+        except Exception as e:
+            print(f"Error running SVM: {e}. Exiting.")
+        else:
+            print("Invalid method selected. Please choose from 'knn', 'lg', or 'svm'.")
 
 
 if __name__ == '__main__':

@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83345b3d-5dea-416b-a4cc-d9d8aa5593db" name="Changes" comment="functional version for lg, knn and calling in terminal using python main.py --methodl= lg/knn">
+    <list default="true" id="83345b3d-5dea-416b-a4cc-d9d8aa5593db" name="Changes" comment="try except blocks for lg and knn in main">
+      <change afterPath="$PROJECT_DIR$/algorithms/svm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -170,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720042355232</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="try except blocks for lg and knn in main">
+      <option name="closed" value="true" />
+      <created>1720722467711</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720722467711</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -180,6 +189,7 @@
     <MESSAGE value="fix imports from preprocessing.py" />
     <MESSAGE value="refactor organisation (swap main and lg)" />
     <MESSAGE value="functional version for lg, knn and calling in terminal using python main.py --methodl= lg/knn" />
-    <option name="LAST_COMMIT_MESSAGE" value="functional version for lg, knn and calling in terminal using python main.py --methodl= lg/knn" />
+    <MESSAGE value="try except blocks for lg and knn in main" />
+    <option name="LAST_COMMIT_MESSAGE" value="try except blocks for lg and knn in main" />
   </component>
 </project>
