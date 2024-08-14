@@ -5,8 +5,8 @@
 The AI Autonomous Lawn Mower Project aims to create a fully functional, autonomous lawnmower. The project is a comprehensive collection of code and resources, ranging from machine learning classifiers to control systems implemented on Raspberry Pi/Arduino. The project is modular, allowing each component to be developed and tested independently, before integration into the complete system.
 
 ## Disclaimer
-This project is still in progress
-Currently includes: Grass classifier models
+This project is still in progress.
+Currently includes: Grass classifier models.
 
 ## Project Structure
 
