@@ -78,8 +78,6 @@ You can run different classification algorithms by specifying the `--method` par
      python main.py --method svm
 
 #### Convolutional Neural Network (CNN):
-
-    ```bash
     python main.py --method cnn
 
 
