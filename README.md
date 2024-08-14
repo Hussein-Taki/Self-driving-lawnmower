@@ -81,10 +81,10 @@ You can run different classification algorithms by specifying the `--method` par
     python main.py --method cnn
 
 
-##Customizing Parameters
+## Customizing Parameters
 You can modify parameters like the number of neighbors for KNN or the C parameter for SVM by editing the respective files in the algorithms/ directory.
 
-##Project Details
+## Project Details
 Data Preprocessing
 Data is preprocessed using functions defined in preprocessing/preprocess.py. The images are loaded, resized, and normalized before being split into training and testing datasets.
 Model Evaluation
@@ -93,5 +93,5 @@ A confusion matrix is also displayed to visualize the classification performance
 Contributing
 If you would like to contribute to this project, feel free to fork the repository and submit a pull request.
 
-##Contact
+## Contact
 For any inquiries or suggestions, please contact Hussein Taki at h.taki@student.reading.ac.uk
